@@ -1,0 +1,66 @@
+/* Pingtrail Styling */
+@import url('http://fonts.googleapis.com/css?family=Gentium+Basic:400,700');
+@import url('http://fonts.googleapis.com/css?family=PT+Sans:400,700');
+
+/* Sorry, RocketTheme... */
+#rocket { display: none; }
+
+/* Override some J!-specific styles */
+h1, h2 { letter-spacing: normal; }
+.component-content .title { font-size: 175%; }
+.component-content td p { line-height: inherit; margin-bottom: 15px; }
+
+/* General */
+.googleplus { color: white; font-family: "Gentium Basic", serif; font-size: 15px; font-weight: 700; margin-top: 4px; padding-left: 7em; }
+.googleplus img { left: 7px; position: relative; top: 4px; }
+.pingtrail-feature { background-color: black; color: white; font-size: 18px; }
+
+/* Top */
+div#rt-top div.rt-container div.rt-alpha #rt-logo { background: url('../images/logo/pingtrail.png') top left no-repeat; display: inline; float: left; height: 187px; width: 225px; }
+div#rt-top, div#rt-top div.rt-container { background-color: rgb(21,99,127); height: 40px; }
+div#rt-top div.rt-container div.rt-block { margin: 0; padding: 0; }
+
+/* Header */
+div#rt-header, div#rt-header div.rt-container { background-color: rgb(155,226,253); height: 126px; }
+div#rt-header div.rt-container div,
+div#rt-header div.rt-container div div.rt-block,
+div#rt-header div.rt-container div div.rt-block div.custom { height: 100%; margin: 0; padding: 0; }
+div#rt-header div.rt-container div.rt-block div.custom img { bottom: 20px; left: 0; position: absolute; }
+div#rt-header div.rt-container div.rt-omega div.rt-block div.custom img { top: 0; left: 0; position: absolute; }
+div#rt-header div.rt-container div.rt-prefix-2,
+div#rt-header div.rt-container div.rt-prefix-3 { padding-left: 65px; padding-right: 75px; }
+
+/* Navigation */
+div#rt-menu,
+div#rt-menu div.rt-container { background-color: rgb(21,99,127); color: white; text-transform: uppercase; }
+div#rt-menu div.rt-container { height: 50px; }
+div#rt-menu div.rt-container div.rt-menubar { text-align: right; }
+div#rt-menu div.rt-container div.rt-menubar ul.menutop { font-family: "PT Sans", sans-serif; padding-top: 30px; font-size: 13px; font-weight: 700; }
+div#rt-menu div.rt-container div.rt-menubar .menutop li.root > .item { height: auto; }
+div#rt-menu div.rt-container div.rt-menubar .menutop li.root > .item span { line-height: normal; }
+
+/* Navigation - Hovers */
+#rt-menu ul.menu li a:hover,
+.menutop li.root > .item:hover,
+.menutop li.active.root.f-mainparent-itemfocus > .item,
+.menutop li.root.f-mainparent-itemfocus > .item,
+.menu-type-splitmenu .menutop li:hover > .item { background: rgb(21,99,127); color: #fff; font-weight: 700; }
+
+/* Navigation - Active */
+#rt-menu ul.menu li.active a,
+#rt-menu ul.menu li.active a:hover,
+.menutop li.root.active > .item,
+.menutop li.root.active > .item:hover,
+.menu-type-splitmenu .menutop li.active .item { background-color: rgb(155,226,253); color: rgb(21,99,127); }
+
+/* Navigation - Dropdowns */
+.menutop .fusion-submenu-wrapper {background: #ccc;}
+.menutop .fusion-submenu-wrapper.level3, .menutop .fusion-submenu-wrapper.level4, .menutop .fusion-submenu-wrapper.level5, .menutop .fusion-submenu-wrapper.level6 {background: #515151;}
+.menutop ul li > .item {color: #fff;}
+.menutop ul li > .item:hover, .menutop ul li.f-menuparent-itemfocus > .item { background: #ccc; color: black; }
+
+/* Mainbody */
+
+
+/* Footer */
+
