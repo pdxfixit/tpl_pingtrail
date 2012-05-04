@@ -42,23 +42,23 @@
             <option value="style3">Style 3</option>
             <option value="style4">Style 4</option>
         </field>
-        <field name="bgcolor" type="colorchooser" default="#dddddd" label="BG_COLOR" setinsession="true"
+        <field name="bgcolor" type="colorchooser" default="#00aeef" label="BG_COLOR" setinsession="true"
                setbysession="true" setincookie="true" setbycookie="true"/>
 
-        <field name="headercolor" type="colorchooser" default="#111111" label="HEADER_COLOR" setinsession="true"
+        <field name="headercolor" type="colorchooser" default="#9be2fd" label="HEADER_COLOR" setinsession="true"
                setbysession="true" setincookie="true" setbycookie="true"/>
 
-        <field name="bottomcolor" type="colorchooser" default="#111111" label="BOTTOM_COLOR" setinsession="true"
+        <field name="bottomcolor" type="colorchooser" default="#00aeef" label="BOTTOM_COLOR" setinsession="true"
                setbysession="true" setincookie="true" setbycookie="true"/>
 
-        <field name="footercolor" type="colorchooser" default="#666666" label="FOOTER_COLOR" setinsession="true"
+        <field name="footercolor" type="colorchooser" default="#00aeef" label="FOOTER_COLOR" setinsession="true"
                setbysession="true" setincookie="true" setbycookie="true"/>
 
-        <field name="linkcolor" type="colorchooser" default="#cc0000" label="LINK_COLOR" setinsession="true"
+        <field name="linkcolor" type="colorchooser" default="#00aeef" label="LINK_COLOR" setinsession="true"
                setbysession="true" setincookie="true" setbycookie="true"/>
 
         <fields name="webfonts" type="chain" label="WEBFONTS">
-            <field name="enabled" type="toggle" default="0" label="SHOW"/>
+            <field name="enabled" type="toggle" default="1" label="SHOW"/>
             <field name="source" type="selectbox" default="google" label="WEBFONTS_SOURCE">
                 <option value="google">Google Font Directory</option>
             </field>
@@ -127,7 +127,7 @@
         <field name="featurestips" type="tips" tab="features" panel_position="right" show_label="false"/>
         <fields name="logo" type="chain" label="LOGO">
             <field name="enabled" type="toggle" default="1" label="SHOW"/>
-            <field name="position" type="position" translation="false" default="header-a" label="POSITION"/>
+            <field name="position" type="position" translation="false" default="top-a" label="POSITION"/>
             <field name="autosize" type="toggle" default="0" label="AUTO_SIZE"/>
             <field name="perstyle" type="hidden" default="0"/>
             <field name="css" type="hidden" default="body #rt-logo"/>
@@ -276,12 +276,12 @@
         </fields>
 
         <fields name="header" type="position" label="HEADER_POS">
-            <field name="layout" type="positions" default="3,3,3,3" label="">
+            <field name="layout" type="positions" default="3,4,3,2" label="">
                 <schemas>1,2,3,4,5,6</schemas>
                 <words>2,3,4,5,6,7,8,9,10</words>
             </field>
-            <field name="showall" type="toggle" default="0" label="FORCE_POS"/>
-            <field name="showmax" type="showmax" default="6" label="POS_COUNT"/>
+            <field name="showall" type="toggle" default="1" label="FORCE_POS"/>
+            <field name="showmax" type="showmax" default="4" label="POS_COUNT"/>
         </fields>
 
         <fields name="showcase" type="position" label="SHOWCASE_POS">
