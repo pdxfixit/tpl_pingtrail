@@ -1,6 +1,6 @@
 <img src="<?php echo $gantry->templateUrl . '/template_thumbnail.png';?>" width="206" height="150" class="template-preview" alt=""/>
 <h1><?php echo $gantry->get('template_full_name');?> <span>v<?php echo $gantry->_template->getVersion();?></span></h1>
-<p>Gantry framework default theme is just a small example on how easy you can create your Gantry based themes.</p>
+<p>This custom Joomla template was designed by Inkspot Graphics, and built upon the Gantry Framework by PDXfixIT.</p>
 
 <h2><?php echo $gantry->get('template_full_name');?> Presets</h2>
 
