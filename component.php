@@ -1,7 +1,7 @@
 <?php
 /**
  * @package Gantry Template Framework - RocketTheme
- * @version 3.2.16 February 8, 2012
+ * @version 3.2.19 April 2, 2012
  * @author RocketTheme http://www.rockettheme.com
  * @copyright Copyright (C) 2007 - 2012 RocketTheme, LLC
  * @license http://www.gnu.org/licenses/gpl-2.0.html GNU/GPLv2 only

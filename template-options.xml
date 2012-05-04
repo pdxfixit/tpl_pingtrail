@@ -19,7 +19,7 @@
         <field name="master" type="hidden" value="false" default="true"/>
         <field name="current_id" type="hidden" value="false" default="true"/>
         <field name="gantry" type="gantry" value="" panel_position="hiddens"/>
-        <field name="template_full_name" type="hidden" default="Gantry Template"/>
+        <field name="template_full_name" type="hidden" default="Pingtrail Template"/>
         <!--<field name="diagnostic" type="diagnostic" panel_position="right" show_label="false" />-->
         <!--<field name="overviewtips" type="tips" tab="overview" panel_position="right" show_label="false"/>-->
         <field name="grid_system" type="hidden" default="12"/>
@@ -155,9 +155,9 @@
         </fields>
 
         <fields name="copyright" type="chain" label="COPYRIGHT">
-            <field name="enabled" type="toggle" default="1" label="SHOW"/>
+            <field name="enabled" type="toggle" default="0" label="SHOW"/>
             <field name="position" type="position" translation="false" default="copyright" label="POSITION"/>
-            <field name="text" type="text" default="Designed by RocketTheme" label="" class="text-long"/>
+            <field name="text" type="text" default="Copyright (c) 2012, Pingtrail" label="" class="text-long"/>
         </fields>
 
         <fields name="smartload" type="chain" labeel="SMARTLOAD">
@@ -168,7 +168,7 @@
         </fields>
 
         <fields name="totop" type="chain" label="TOTOP">
-            <field name="enabled" type="toggle" default="1" label="SHOW"/>
+            <field name="enabled" type="toggle" default="0" label="SHOW"/>
             <field name="position" type="position" translation="false" default="copyright" label="POSITION"/>
             <field name="text" type="text" default="Scroll to Top" label="" class="text-long"/>
         </fields>
@@ -190,8 +190,8 @@
         </fields>
 
         <fields name="analytics" type="chain" label="ANALYTICS">
-            <field name="enabled" type="toggle" default="0" label="ANALYTICS_ENABLE"/>
-            <field name="code" type="text" default="" label="ANALYTICS_CODE" class="text-long"/>
+            <field name="enabled" type="toggle" default="1" label="ANALYTICS_ENABLE"/>
+            <field name="code" type="text" default="UA-29343577-1" label="ANALYTICS_CODE" class="text-long"/>
         </fields>
     </fieldset>
     <fieldset name="menu" label="MENU">
@@ -204,11 +204,11 @@
         </field>
 		<field name="menutips" type="tips" tab="menu" panel_position="right" show_label="false"/>
         <fields name="menu" type="selectedset" label="MENU_CTRL">
-            <field name="enabled" type="toggle" default="1" label="SHOW" />
+            <field name="enabled" type="toggle" default="1" label="SHOW" enabler="true" />
             <field name="type" type="selectbox" selector="true" default="fusionmenu" label="TYPE" isbodyclass="true" setbyurl="true" setinsession="true" setbysession="true" setincookie="true" setbycookie="true"/>
             <fields type="set" name="fusionmenu" label="FUSION">
                 <field name="menutype" type="menus" default="mainmenu" label="MENU_SELECT" />
-                <field name="position" type="position" translation="false" default="header-b" label="POSITION" />
+                <field name="position" type="position" translation="false" default="navigation" label="POSITION" />
                 <field name="enable_js" type="toggle" default="1" label="ENABLE_JS" />
                 <field name="opacity" type="text" default="1" label="MENU_OPACITY" class="text-short" />
                 <field name="effect" type="selectbox" default="slidefade" label="MENU_EFFECT">
@@ -576,7 +576,7 @@
         <field name="advancedtips" type="tips" tab="advanced" panel_position="right" show_label="false"/>
 
         <fields name="cache" type="chain" label="GANTRY_CACHE" setinoverride="false">
-            <field name="enabled" type="toggle" default="1" label="ENABLED" setinoverride="false"/>
+            <field name="enabled" type="toggle" default="0" label="ENABLED" setinoverride="false"/>
             <field name="time" type="text" default="900" label="CACHE_TIME" class="text-short" setinoverride="false"/>
         </fields>
 
